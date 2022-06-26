@@ -1,0 +1,94 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - call_me
+  - course_info
+  - requirements
+  - degree_required
+  - fsds
+  - jsBootcamp
+  - javaBootcamp
+  - c++Bootcamp
+  - raise_demand
+  - package
+  - practice
+  - error
+  - ide
+  - hackathon
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_deny:
+    - text: "Sorry, I am bot and I can't call. You can connect on @support on skype"
+
+  utter_course_info:
+    - text: "You can get the information from https://courses.ineuron.ai/"
+
+  utter_requirements:
+    - text: "Requirements are System with minimum i3 processor or better, At least 4 GB of RAM, Working internet connection and Dedication to learn"
+
+  utter_degree_required:
+    - text: "Only requirements are system with minimum i3 processor or better, At least 4 GB of RAM, Working internet connection and Dedication to learn"
+
+  utter_fsds_bootcamp:
+    - text: "Full-stack data science course is a live mentor-led job guaranteed certification program with a full-time one-year internship provided by iNeuron, in this course you will learn the entire stack required to work in the data science, data analytics, and big data domain, including machine learning, deep learning, computer vision NLP and Big data including MLOps and cloud infrastructure, along with real-time industry projects and product development with the iNeuron product development team, which will enable you to contribute on various levels.
+     To more visit at https://courses.ineuron.ai/Full-Stack-Data-Science-Bootcamp"
+
+  utter_js_bootcamp:
+    - text: "Learn everything about JavaScript with React, Vue, Angular, Nodejs, MongoDB, NextJS, Tailwind, etc. Build industry ready projects. To more visit at
+       https://courses.ineuron.ai/Full-Stack-Javascript-Web-Developer"
+
+  utter_java_bootcamp:
+    - text: "Java is one of the most widely used programming languages, owing to its versatility and compatibility. Java can be used for various purposes, including 
+    software development, mobile application development, and large-scale system development. This Java course will teach you all you need to know to get started with Java, To know more
+    vist at https://courses.ineuron.ai/Enterprise-Java-with-Spring-Boot.
+"
+  utter_c++_bootcamp:
+    - text: "C++ Job Ready course has been created specifically to familiarize you with the concepts & applications of C++ in industry. This Course is for the students who want to build strong concepts & theories with Project Building with data structures and IOT applications. Through this course, 
+    you will be confident enough to crack any kind of interview related to C++. To know more at https://courses.ineuron.ai/A-Job-Ready-Bootcamp-in-C++,-DSA-and-IOT"
+
+  utter_raise_demand:
+    - text: "You can raise a demand from the dashboard"
+
+  utter_package:
+    - text: "The package is never fixed it always determined according to your skills and company. 
+              Average package for fresher in this industry is 6-10 lakhs"
+  utter_practice:
+    - text: "You can practice with datasets from UCI Machine Learning repository and you can also participate in Kaggle Competition"
+
+  utter_error:
+    - text: "Sorry, I am bot I can't help you with this problem"
+
+  utter_ide:
+    - text: "You shouldn't think much about IDE and just focus on code. Jupyter notebook is just used for experimentation but actual code is done in code editor"
+
+  utter_hackathon:
+    - text: "The Next iNeuron Hackathon will be on weekend, for more information visit https://hackathon.ineuron.ai/"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

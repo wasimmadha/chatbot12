@@ -1,0 +1,194 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: call_me
+  examples: |
+    - can I call you?
+    - please call?
+    - call?
+    - zoom call?
+    - google meet?
+
+- intent: course_info
+  examples: |
+    - Can you share me this course info info?
+    - I am unable to find this course, can you share the link?
+
+- intent: requirements
+  examples: |
+    - What are the requirements?
+    - prerequisite?
+
+- intent: degree_required
+  examples: |
+    - Is the bachelor degree/ graduate compulsory/mandatory/required for most of the company for job roles? 
+
+- intent: fsds
+  examples: |
+    - Full Stack Data Science
+    - FSDS
+    - Full Data Science
+    - Stack Data Science
+    - sudhanshu krish
+
+- intent: jsBootcamp
+  examples: |
+    - Javascript Bootcamp Course
+    - MERN Course
+    - MongoDb ExpressJS NodeJS ReactJS Course
+    - typescript Course
+    - hitesh
+
+- intent: javaBootcamp
+  examples: |
+    - Java Bootcamp
+    - Spring Boot
+    - Naveen
+
+- intent: c++Bootcamp
+  examples: |
+    - C++ Bootcamp
+    - DSA
+    - IOT
+    - saurabh
+
+-  intent: raise_demand
+   examples: |
+     - Career gap?
+     - I have a gap in my career, so what should I do?
+     - Where can I do resume discussion?
+     - How can I work with iNeuron?
+     - I need some guidance with my career, what should I do?
+     - I have a startup idea
+     - I am thinking of doing some innovation
+     - drone 
+     - flight controller
+     - 3D printer
+     - incubation
+     - complain/feedback
+
+- intent: package
+  examples: |
+    - What's the package for freshers?
+    - Package for experienced person
+
+- intent: practice
+  examples: |
+    - I need some dataset to practice, what should I do?
+    - I want to enhance the logical thinking
+    - enhance the problem solving skills
+    - practice
+
+- intent: error
+  examples: |
+    - error
+    - getting a issues
+    - need help
+    - not giving a proper result
+    - help with assignment
+    - help with project
+    - TypeError
+    - ValueError
+    - compile time error
+    - runtime error
+
+- intent: ide
+  examples: |
+    - which IDE I should choose?
+    - what should I use, jupyter notebook vs pycharm?
+    - jupyter vs pycharm
+
+- intent: hackathon
+  examples: |
+    - When will be the next iNeuron Hackathon?
+  

@@ -1,0 +1,127 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: call-request
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: call_me
+    - action: utter_deny
+    - action: utter_goodbye
+
+- story: course-info
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: course_info
+    - action: utter_course_info
+
+- story: requirements
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: requirements
+    - action: utter_requirements
+
+- story: degree-required
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: degree_required
+    - action: utter_degree_required
+
+- story: fsds
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: fsds
+    - action: utter_fsds_bootcamp
+
+- story: js
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: jsBootcamp
+    - action: utter_js_bootcamp
+
+- story: java
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: javaBootcamp
+    - action: utter_java_bootcamp
+
+- story: fsds
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: c++Bootcamp
+    - action: utter_c++_bootcamp
+
+- story: raise-demand
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: raise_demand
+    - action: utter_raise_demand
+
+- story: package
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: package
+    - action: utter_package
+
+- story: practice
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: practice
+    - action: utter_practice
+
+- story: error
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: error
+    - action: utter_error
+
+- story: ide
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ide
+    - action: utter_ide
+
+-  story: hackathon
+   steps:
+     - intent: hackathon
+     - action: utter_hackathon
