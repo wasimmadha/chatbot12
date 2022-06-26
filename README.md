@@ -14,7 +14,7 @@ This project is licensed under the MIT License - see the license file for detail
 <code>rasa shell</code> for the command line. 
 
 #### API deployed on Google Azure cloud
-use:
+**Use using API:**
 Post request on http://104.211.231.131:5005/webhooks/rest/webhook with parameter "message" in json format
 E.g.
 {"message": "I have a career gap"}
