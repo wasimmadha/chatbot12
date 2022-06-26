@@ -125,3 +125,33 @@ stories:
    steps:
      - intent: hackathon
      - action: utter_hackathon
+
+- story: howReply
+  steps:
+    - intent: howReply
+    - action: utter_howReply
+
+- story: techNeuron
+  steps:
+    - intent: tech-neuron
+    - action: utter_tech_neuron
+
+- story: regression
+  steps:
+    - intent: regression
+    - action: utter_regression
+
+- story: classification
+  steps:
+    - intent: classification
+    - action: utter_classification
+
+- story: timeSeries
+  steps:
+    - intent: time-series
+    - action: utter_timeSeries
+
+- story: deployment
+  steps:
+    - intent: deployment
+    - action: utter_deployment

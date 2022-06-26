@@ -22,6 +22,12 @@ intents:
   - error
   - ide
   - hackathon
+  - howReply
+  - tech-neuron
+  - regression
+  - classification
+  - time-series
+  - deployment
 
 responses:
   utter_greet:
@@ -89,6 +95,24 @@ responses:
 
   utter_hackathon:
     - text: "The Next iNeuron Hackathon will be on weekend, for more information visit https://hackathon.ineuron.ai/"
+
+  utter_howReply:
+    - text: "Okay"
+
+  utter_tech_neuron:
+    - text: "The Price of Tech Neuron in 7080 which contains more than 200 course"
+
+  utter_regression:
+    - text: "Regression is a statistical method used in finance, investing, and other disciplines that attempts to determine the strength and character of the relationship between one dependent variable, you can find more information at https://en.wikipedia.org/wiki/Regression_analysis"
+
+  utter_classification:
+    - text: "Classification is a process related to categorization, the process in which ideas and objects are recognized, differentiated and understood. Classification is the grouping of related facts into classes. you can find more information at https://en.wikipedia.org/wiki/Classification"
+
+  utter_timeSeries:
+    - text: "A time series is a sequence of data points that occur in successive order over some period of time. This can be contrasted with cross-sectional data, which captures a point in time. You can learn more about it at https://machinelearningmastery.com/time-series-forecasting-methods-in-python-cheat-sheet/"
+
+  utter_deployment:
+    - text: "Deployement is a very vast topic which includes many technologies, you can start with https://towardsdatascience.com/heroku-docker-in-10-minutes-f4329c4fd72f"
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

@@ -9,13 +9,19 @@ nlu:
     - hello there
     - good morning
     - good evening
-    - moin
     - hey there
     - let's go
     - hey dude
     - goodmorning
     - goodevening
     - good afternoon
+
+-  intent: howReply
+   examples: |
+     - fine
+     - good
+     - great
+     - Not so good
 
 - intent: goodbye
   examples: |
@@ -43,7 +49,6 @@ nlu:
 - intent: deny
   examples: |
     - no
-    - n
     - never
     - I don't think so
     - don't like that
@@ -101,7 +106,7 @@ nlu:
 
 - intent: course_info
   examples: |
-    - Can you share me this course info info?
+    - Can you share me this course info?
     - I am unable to find this course, can you share the link?
 
 - intent: requirements
@@ -191,4 +196,30 @@ nlu:
 - intent: hackathon
   examples: |
     - When will be the next iNeuron Hackathon?
-  
+
+- intent: tech-neuron
+  examples: |
+      - What's the price of Tech Neuron and how can I join it?
+
+- intent: regression
+  examples: |
+      - What is Regression?
+      - I have some doubt in regression.
+
+- intent: classification
+  examples: |
+      - What is classification?
+      - I have some doubt in classification.
+
+- intent: time-series
+  examples: |
+      - What is Time series?
+      - Moving average
+      - SARIMA
+      - SARIMAX
+
+- intent: deployment
+  examples: |
+      - deployment
+      - heroku
+      - docker
